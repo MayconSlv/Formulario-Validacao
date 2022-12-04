@@ -31,6 +31,10 @@ form {
     flex-direction: column;
 }
 
+.form__campo {
+    margin-bottom: .8em;
+}
+
 .form__campo input {
     color: white;
     background-color: transparent;
@@ -40,7 +44,6 @@ form {
     outline: none;
 
     padding: .4em;
-    margin-bottom: 8px;
 }
 
 .form__botao {
@@ -62,6 +65,9 @@ form div{
     flex-direction: column;
 }
 
+.error-input {
+    border-color: #e83131;
+}
 .error {
     color: #e83131;
     font-size: 14px;
