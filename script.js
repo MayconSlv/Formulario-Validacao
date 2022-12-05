@@ -48,7 +48,7 @@ function inputValidate() {
     }
 
     // validando confirmação de senha
-    if(campos[3].value == campos[2].value && campos[3].value.length <= 10) {
+    if(campos[2].value != campos[3].value || campos[3].value.length <= 10) {
         setError(3, 'A senha está incorreta')
     } else {
         validateError(3)
